@@ -47,9 +47,5 @@
 	<true/>
 	<key>NSFaceIDUsageDescription</key>
 	<string>Use FaceID to decrypt notes securely.</string>
-	<key>LSSupportsOpeningDocumentsInPlace</key>
-    <true/>
-    <key>UIFileSharingEnabled</key>
-    <true/>
 </dict>
 </plist>

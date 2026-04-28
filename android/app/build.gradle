@@ -51,8 +51,8 @@ android {
            keyPassword keystoreProperties['keyPassword']
            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
            storePassword keystoreProperties['storePassword']
-        //    enable for signing apk build
-           v1SigningEnabled true
+        //    keep only modern signing schemes (minSdkVersion is 25)
+           v1SigningEnabled false
            v2SigningEnabled true
        }
    }
